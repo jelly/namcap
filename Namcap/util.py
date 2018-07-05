@@ -60,6 +60,4 @@ def script_type(fileobj):
 		name = cmd[1]
 	return name
 
-clean_filename = lambda s: re.search(r"/tmp/namcap\.[0-9]*/(.*)", s).group(1)
-
 # vim: set ts=4 sw=4 noet:
