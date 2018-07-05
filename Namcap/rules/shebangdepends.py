@@ -21,7 +21,6 @@
 
 """Checks dependencies on programs specified in shebangs."""
 
-import os
 import shutil
 import Namcap.package
 from Namcap.util import is_script, script_type

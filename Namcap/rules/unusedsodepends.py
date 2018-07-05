@@ -20,7 +20,7 @@
 
 import os, subprocess, re
 import tempfile
-from Namcap.util import is_elf, clean_filename
+from Namcap.util import is_elf
 from Namcap.ruleclass import *
 
 libre = re.compile('^\t(/.*)')

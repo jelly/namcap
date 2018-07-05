@@ -20,14 +20,9 @@
 # 
 
 import getopt
-import imp
 import os
-import re
-import shutil
-import string
 import sys
 import tarfile
-import types
 
 import Namcap.depends
 import Namcap.tags

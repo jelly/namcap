@@ -19,7 +19,6 @@
 #   USA
 # 
 
-import unittest
 from Namcap.tests.pkgbuild_test import PkgbuildTest
 import Namcap.rules.carch as module
 

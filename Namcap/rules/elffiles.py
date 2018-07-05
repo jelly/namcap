@@ -18,13 +18,11 @@
 #   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 #
 
-import os
-
 from elftools.elf.elffile import ELFFile
 from elftools.elf.dynamic import DynamicSection
 from elftools.elf.sections import SymbolTableSection
 
-from Namcap.util import is_elf, clean_filename
+from Namcap.util import is_elf
 from Namcap.ruleclass import *
 
 # Valid directories for ELF files

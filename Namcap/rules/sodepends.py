@@ -30,7 +30,6 @@ from Namcap.ruleclass import *
 from Namcap.util import is_elf
 from Namcap.rules.rpath import get_rpaths
 
-from elftools.elf.enums import ENUM_D_TAG
 from elftools.elf.elffile import ELFFile
 from elftools.elf.dynamic import DynamicSection
 
